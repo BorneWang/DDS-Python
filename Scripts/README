@@ -1,0 +1,18 @@
+Include all the needed python scripts of DDS-python
+
+1. main.py
+/* include all the args configs */
+
+2. client.py
+/* the main pipline of the whold program :
+  including :
+    a) getNextSegment   # pick segments from source file 
+    b) self.filtering.Run  #do filtering of segments only used in noscope and vigil 
+    c) self.logic.GetNextRegionToQuery # generate Regions from segments and results
+    d) self.QueryCNN  #pass regions to query RCNN
+    f) results.AddResult # add the new results from RCNN
+    e) self.UpdateFrameList  #drop out the frames which is queryed
+    g) self.logic.updateResults #use new results to update old ones
+    h) self.logic.Tracking #track the frames which is not be queryed
+    i) outputTofile #store the results
+    
