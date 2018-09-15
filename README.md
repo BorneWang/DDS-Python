@@ -13,13 +13,14 @@ A Python version of DDS
 4. scp Allfiles.tar newserver:~
 5. go to the new server
 6. mkdir data videos
-7. tar -xf ALLfiles
+7. tar -xf Allfiles.tar
 8. run shell  compile_tensorflow.sh
 9. run shell  compile_opencv.sh
 10. run shell  compile_ffmpeg.sh
 
 # Run DDS Steps
 1. Download the videos from BDD or KITTY
+
 
 --1.5 #if the videos are from BDD#
       run shell use_ffmpeg_gen_data.sh to convert videos to png or jpeg
