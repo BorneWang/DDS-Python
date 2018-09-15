@@ -2,9 +2,9 @@
 A Python version of DDS
 
 # Compile Environment
-1. run shell  
-2. run shell
-3. run shell
+1. run shell  compile_tensorflow.sh
+2. run shell  compile_opencv.sh
+3. run shell  compile_ffmpeg.sh
 
 
 
