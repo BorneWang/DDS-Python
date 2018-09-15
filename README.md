@@ -3,13 +3,14 @@ A Python version of DDS
 
 # Compile Environment
 1. back to server instance-4 (original code)
-2. tar -cf Allfiles.tar TF_Crop_DDS model models videos data compile
+2. tar -cf Allfiles.tar TF_Crop_DDS model models compile
 3. scp ALLfiles.tar <newserver>:~
 4. go to the new server
-5. tar -xf ALLfiles
-6. run shell  compile_tensorflow.sh
-7. run shell  compile_opencv.sh
-8. run shell  compile_ffmpeg.sh
+5. mkdir data videos
+6. tar -xf ALLfiles
+7. run shell  compile_tensorflow.sh
+8. run shell  compile_opencv.sh
+9. run shell  compile_ffmpeg.sh
 
 # Run DDS Steps
 1. Download the videos from BDD or KITTY
