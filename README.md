@@ -1,6 +1,11 @@
 # DDS-Python
 A Python version of DDS
 
+# Server Configuration
+8vCpu 52G memory
+1GPU
+
+
 # Compile Environment
 1. back to server instance-4 (original code)
 2. tar -cf Allfiles.tar TF_Crop_DDS model models compile
