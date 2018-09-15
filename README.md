@@ -1,6 +1,13 @@
 # DDS-Python
 A Python version of DDS
 
+# Compile Environment
+1. run shell  
+2. run shell
+3. run shell
+
+
+
 # Run DDS Steps
 1. Download the videos from BDD or KITTY
 
