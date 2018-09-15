@@ -16,3 +16,7 @@ Include all the needed python scripts of DDS-python
     h) self.logic.Tracking #track the frames which is not be queryed
     i) outputTofile #store the results
     
+3. server.py
+  including :
+  a) read image from impath
+  b) pass image to RCNN
