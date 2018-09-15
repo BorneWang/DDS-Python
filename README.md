@@ -4,7 +4,7 @@ A Python version of DDS
 # Compile Environment
 1. back to server instance-4 (original code)
 2. tar -cf Allfiles.tar TF_Crop_DDS model models compile
-3. scp ALLfiles.tar <newserver>:~
+3. scp ALLfiles.tar newserver:~
 4. go to the new server
 5. mkdir data videos
 6. tar -xf ALLfiles
