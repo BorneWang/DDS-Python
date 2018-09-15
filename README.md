@@ -12,8 +12,9 @@ A Python version of DDS
 3. run shell run_DDS.sh <frame src directory>
    #the f1_score and bandwidth will be write into a log file
    
- 4.#if running many videos
- run shell all_run.sh #change the contents depend on your <frame src directory>
+ 4. #if running many videos
+ run shell all_run.sh 
+ #change the contents depend on your <frame src directory>
    
 # Run MPEG Steps
 1. Download the videos from BDD or KITTY
