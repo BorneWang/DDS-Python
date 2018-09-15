@@ -14,8 +14,8 @@ A Python version of DDS
 5. go to the new server
 6. mkdir data videos
 7. tar -xf Allfiles.tar
-8. ./compile/compile_tensorflow.sh
-9. ./compile/compile_opencv.sh
+8. ./compile/compile_opencv.sh
+9. ./compile/compile_tensorflow.sh
 10. ./compile/compile_ffmpeg.sh
 
 # Run DDS Steps
