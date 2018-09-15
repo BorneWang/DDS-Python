@@ -3,8 +3,9 @@ A Python version of DDS
 
 # Run DDS Steps
 1. Download the videos from BDD or KITTY
-   --1.5 #if the videos are from BDD#
-         run shell use_ffmpeg_gen_data.sh to convert videos to png or jpeg
+
+--1.5 #if the videos are from BDD#
+      run shell use_ffmpeg_gen_data.sh to convert videos to png or jpeg
          
 2. cd TF_Crop_DDS/
 
