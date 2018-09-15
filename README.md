@@ -14,9 +14,9 @@ A Python version of DDS
 5. go to the new server
 6. mkdir data videos
 7. tar -xf Allfiles.tar
-8. run shell  compile_tensorflow.sh
-9. run shell  compile_opencv.sh
-10. run shell  compile_ffmpeg.sh
+8. run shell compile/compile_tensorflow.sh
+9. run shell compile/compile_opencv.sh
+10. run shell compile/compile_ffmpeg.sh
 
 # Run DDS Steps
 1. Download the videos from BDD or KITTY
