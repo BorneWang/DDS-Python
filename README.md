@@ -20,6 +20,7 @@ A Python version of DDS
 
 # Run DDS Steps
 1. Download the videos from BDD or KITTY
+
 bowenw@pc613.emulab.net:/proj/DeepEdgeVideo/stream-measurement/samples-1k/picks
 bowenw@pc613.emulab.net:/proj/DeepEdgeVideo/stream-measurement/samples-1k/picks
 
