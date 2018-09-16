@@ -27,6 +27,8 @@ bowenw@pc613.emulab.net:/proj/DeepEdgeVideo/stream-measurement/samples-1k/videos
 
 --1.5 #if the videos are from BDD#
       run shell use_ffmpeg_gen_data.sh to convert videos to png or jpeg
+      
+      emample : ./use_ffmpeg_gen_data.sh 
          
 2. cd TF_Crop_DDS/
 
