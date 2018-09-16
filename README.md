@@ -9,7 +9,7 @@ A Python version of DDS
 # Compile Environment
 1. back to server instance-4 (original code)
 2. cd /home/bowen
-3. sudo tar -cf Allfiles.tar TF_Crop_DDS model models compile
+3. sudo tar -cf Allfiles.tar TF_Crop_DDS model models compile use_ffmpeg_gen_data.sh
 4. scp Allfiles.tar newserver:~
 5. go to the new server
 6. mkdir data videos
