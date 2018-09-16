@@ -22,7 +22,8 @@ A Python version of DDS
 1. Download the videos from BDD or KITTY
 
 bowenw@pc613.emulab.net:/proj/DeepEdgeVideo/stream-measurement/samples-1k/picks
-bowenw@pc613.emulab.net:/proj/DeepEdgeVideo/stream-measurement/samples-1k/picks
+
+bowenw@pc613.emulab.net:/proj/DeepEdgeVideo/stream-measurement/samples-1k/videos
 
 --1.5 #if the videos are from BDD#
       run shell use_ffmpeg_gen_data.sh to convert videos to png or jpeg
