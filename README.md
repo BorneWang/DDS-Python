@@ -20,6 +20,7 @@ A Python version of DDS
 
 # Run DDS Steps
 1. Download the videos from BDD or KITTY
+
 /proj/DeepEdgeVideo/stream-measurement/samples-1k/picks
 
 --1.5 #if the videos are from BDD#
