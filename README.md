@@ -28,15 +28,17 @@ bowenw@pc613.emulab.net:/proj/DeepEdgeVideo/stream-measurement/samples-1k/videos
 --1.5 #if the videos are from BDD#
       run shell use_ffmpeg_gen_data.sh to convert videos to png or jpeg
       
-      emample : ./use_ffmpeg_gen_data.sh 
+      emample : ./use_ffmpeg_gen_data.sh 0004a4c0-d4df3a18 BDD 0002
          
 2. cd TF_Crop_DDS/
 
 3. run shell run_DDS.sh <frame src directory>
    #the f1_score and bandwidth will be write into a log file
    
+   example : ./run_DDS.sh 0002
+   
  4. #if running many videos
- run shell all_run.sh 
+ ./all_run.sh 
  #change the contents depend on your <frame src directory>
    
 # Run MPEG Steps
@@ -44,16 +46,24 @@ bowenw@pc613.emulab.net:/proj/DeepEdgeVideo/stream-measurement/samples-1k/videos
    --1.5 #if the videos are from BDD#
          run shell use_ffmpeg_gen_data.sh to convert videos to png or jpeg
          
+         emample : ./use_ffmpeg_gen_data.sh 0004a4c0-d4df3a18 BDD 0002
+         
+         noted: change the shell content if you're going to run MPEG
+         
 2. cd TF_Crop_DDS/
 
 3. run shell run_crf_res.sh <frame src directory>
    #the f1_score and bandwidth will be write into a log file
    
+   emample : ./run_crf_res.sh 0002
+   
 4. run shell run_qp.sh <frame src directory>
    #the f1_score and bandwidth will be write into a log file
+   
+   ./run_qp.sh 0002
   
 5.#if running many videos
-   run shell all_run_mpeg.sh #change the contents depend on your <frame src directory>
+   ./all_run_mpeg.sh #change the contents depend on your <frame src directory>
    #the f1_score and bandwidth will be write into a log file
 
 # Generate Ellipse pictures
