@@ -72,6 +72,12 @@ bowenw@instance-storaget:~/unused_videos
 
 2. copy the results file to go/src/github.com/achowdhery/measurementanalytics2018/result/DDS_GO_MPEG
 
+      results :
+      
+      1) DDS results : Ten_new_videos_DDS.log
+      
+      2) MPEG results : New_traial_result/newz_five_videos_res_$res.log
+
 3. cd go/src/github.com/achowdhery/measurementanalytics2018
 
 4. run command line : go run cmd/eval1/main_go_dds_res.go
